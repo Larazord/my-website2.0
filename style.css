@@ -14,20 +14,36 @@ html, body{
   justify-content: center;
   align-content: center;
 }
+.profile{
+  float: right;
+  align-self: start;
+}
+.myself{
+  height: 180px;
+  width: 140px;
+  border-radius: 40%;
+}
+
+.container > *{
+  grid-column: 2;
+}
 
 .title{
   background-color: #96ceb4;
   border: 1px solid black;
-  grid-column: 2;
   grid-row: 1;
+  font-weight: bold;
 }
 .introduction{
   background-color: #ff6f69;
-  grid-column: 2;
   grid-row: 2;
+}
+.myself{
+  display: block;
+  margin: auto;
+  margin-top: 5px;
 }
 .socialMedia{
   background-color: #ffcc5c;
-  grid-column:2;
   grid-row:3;
 }
