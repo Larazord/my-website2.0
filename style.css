@@ -3,6 +3,7 @@ html, body{
   padding: 0px;
   height: 100%;
   box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
 }
 .container{
   border: 1px solid black;
@@ -13,15 +14,6 @@ html, body{
   grid-template-rows: 40px auto 40px;
   justify-content: center;
   align-content: center;
-}
-.profile{
-  float: right;
-  align-self: start;
-}
-.myself{
-  height: 180px;
-  width: 140px;
-  border-radius: 40%;
 }
 
 .container > *{
@@ -38,11 +30,24 @@ html, body{
   background-color: #ff6f69;
   grid-row: 2;
 }
+.text{
+  font-size: 14px;
+  display: grid;
+  border: 1px dotted black;
+  width: 50%;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .myself{
+  height: 180px;
+  width: 140px;
+  border-radius: 40%;
   display: block;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 15px;
 }
+
 .socialMedia{
   background-color: #ffcc5c;
   grid-row:3;
